@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+content %}
+<form method="POST">
+  <h3 align="center">Sign Up</h3>
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input
+      type="text"
+      class="form-control"
+      id="username"
+      name="username"
+      placeholder="Enter username"
+    />
+  </div>
+  <div class="form-group">
+    <label for="pin_code1">Pin code</label>
+    <input
+      type="password"
+      class="form-control"
+      id="pin_code1"
+      name="pin_code1"
+      placeholder="Enter pin code"
+    />
+  </div>
+  <div class="form-group">
+    <label for="pin_code2">Pin code (Confirm)</label>
+    <input
+      type="password"
+      class="form-control"
+      id="pin_code2"
+      name="pin_code2"
+      placeholder="Confirm pin code"
+    />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
