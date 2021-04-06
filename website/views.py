@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, request, flash, jsonify
-from flask_login import login_required, current_user
+from flask_login import current_user
 from .models import Url
 from . import db, create_app
-from sqlalchemy import desc, exc
+from sqlalchemy import desc
 import json
 from requests import get, exceptions
 
@@ -39,8 +39,8 @@ def home():
 @views.route('/delete-url', methods=['POST'])
 def delete_url():
     url = json.loads(request.data)
-    urlId = url['urlId']
-    url = Url.query.get(urlId)
+    url_id = url['urlId']
+    url = Url.query.get(url_id)
     if url:
         db.session.delete(url)
         db.session.commit()
