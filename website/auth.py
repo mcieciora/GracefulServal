@@ -23,7 +23,7 @@ def login():
             else:
                 flash('Incorrect pin code, try again.', category='error')
         else:
-            flash('Username does not exist.', category='error')
+            flash('Incorrect username, try again.', category='error')
 
     return render_template("login.html", user=current_user)
 
@@ -32,6 +32,7 @@ def login():
 @login_required
 def logout():
     logout_user()
+    flash('Successful logout!', category='success')
     return redirect(url_for('auth.login'))
 
 
@@ -43,8 +44,6 @@ def sign_up():
         pin_code2 = request.form.get('pin_code2')
 
         user = User.query.filter_by(username=username).first()
-
-        print(pin_code1.isnumeric())
 
         if user:
             flash('User already exists.', category='error')

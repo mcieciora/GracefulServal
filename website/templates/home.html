@@ -1,29 +1,24 @@
 {% extends "base.html" %} {% block title %}Graceful Serval{% endblock %} {% block content
 %}
-<ul class="list-group list-group-flush" id="urls">
-  {% for url in data %}
-  <li class="list-group-item">
-    <form action="{{ url.url }}">
-      <input type="submit" value="{{ url.name }}" />
-    </form>
-    {% if user.is_authenticated %}
-    <button type="button" class="close" onClick="deleteUrl({{ url.id }})">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
+
+<div class="url_list">
+    {% for url in data %}
+        <div class="url_col">
+            <button class="button url_button" onclick="location.href='{{ url.url }}'" type="button">{{ url.name }}</button>
+            {% if user.is_authenticated %}
+            <button class="delete_button delete_url" onClick="deleteUrl({{ url.id }})">&times;</button>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+
 {% if user.is_authenticated %}
 <form method="POST">
-  <label>Name:</label>
-  <input type="text" id="url_name" name="url_name">
-  <br />
-    <label>URL:</label>
-  <input type="text" id="url" name="url">
-  <br />
-  <div align="center">
-    <button type="submit" class="btn btn-primary">Add URL</button>
+  <h1>New URL</h1>
+  <div class="col">
+    <input type="text" name="url" placeholder="Enter url" required>
+    <input type="text" name="url_name" placeholder="Enter display name" required>
+    <input type="submit" value="Add URL">
   </div>
 </form>
 {% endif %}
