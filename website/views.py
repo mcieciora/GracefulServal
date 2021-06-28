@@ -27,6 +27,8 @@ def home():
                     db.session.add(new_url)
                     db.session.commit()
                     flash('URL added!', category='success')
+                else:
+                    flash('URL could not be added!', category='error')
             except exceptions.MissingSchema:
                 flash('URL is not correct!', category='error')
 

@@ -2,6 +2,9 @@
 %}
 
 <div class="url_list">
+    {% if data == [] %}
+        <h1>No quick tabs available!</h1>
+    {% endif %}
     {% for url in data %}
         <div class="url_col">
             <button class="button url_button" onclick="location.href='{{ url.url }}'" type="button">{{ url.name }}</button>
