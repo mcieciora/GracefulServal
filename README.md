@@ -95,9 +95,7 @@ First, you need to create account with username and pin code as a password. <b>P
   
 To add bookmark simply copypaste your target website url and give it a short, but descriptive name.  
   
-![alt text](doc/add_url.PNG)  
-  
-See: [Funny cats video ;)](https://www.youtube.com/watch?v=eX2qFMC8cFo)  
+![alt text](doc/add_url.PNG)
   
 <h3>Url view</h3>  
   
@@ -110,5 +108,6 @@ Each authenticated user, by clicking red X button, has the ability to delete exp
 For guest users main page contains only listed bookmarks.  
   
 ![alt text](doc/user_view.PNG)  
+See: [Funny cats video ;)](https://www.youtube.com/watch?v=eX2qFMC8cFo)
   
 <i>mcieciora</i>
