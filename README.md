@@ -23,15 +23,17 @@ requests~=2.25.1
 waitress  
 ```  
   
-See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) \  
+See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing)
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
   
   
-<h3>Lazy installation <font color="red">(not implemented yet; please use step-by-step guide)</font></h3>  
+<h3>Lazy installation (not implemented yet; please use step-by-step guide)</h3>  
 Simply run  
  
 ```bash
-git clone -b latest_release https://github.com/mcieciora/GracefulServal.gitcd GracefulServalsudo python3 setup.py
+git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
+cd GracefulServalsudo 
+python3 setup.py
 ```  
   
 <h3>Step-by-step installation</h3>  
