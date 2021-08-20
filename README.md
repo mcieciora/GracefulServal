@@ -9,8 +9,8 @@ This animal was chosen as mascot for this project to raise awareness, that even 
 <i>source:</i> [Serval - Wikipedia](https://en.wikipedia.org/wiki/Serval)
 <h2>How to install</h2>
 <h3>Prerequisites</h3>
-Python version: 
-```>= 3.7```\
+Python version:
+```>= 3.7```
 Python modules (list available in requirements.txt):
 ```
 flask~=1.1.2
@@ -32,18 +32,18 @@ Simply run
 git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
 cd GracefulServal
 sudo python3 setup.py
-``` 
+```
 
 <h3>Step-by-step installation</h3>
 <h4>1. Clone repository</h4>
 ```
 git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
 cd GracefulServal
-``` 
+```
 <h4>2. Create service file in <i>/lib/systemd/system</i></h4>
 ```
 sudo nano /lib/systemd/system/graceful_serval.service
-``` 
+```
 <h4>3. Write into <i>/lib/systemd/system</i></h4>
 ```
 [Unit]
