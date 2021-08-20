@@ -10,7 +10,9 @@ This animal was chosen as mascot for this project to raise awareness, that even 
 <h2>How to install</h2>
 <h3>Prerequisites</h3>
 Python version:
-```>= 3.7```
+```
+>= 3.7
+```
 Python modules (list available in requirements.txt):
 ```
 flask~=1.1.2
