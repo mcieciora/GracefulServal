@@ -48,11 +48,7 @@ cd GracefulServal
 ```
 sudo nano /lib/systemd/system/graceful_serval.service
 ```
-<h4>3. Write into <i>/lib/systemd/system</i></h4>  
 
-```
-sudo nano /lib/systemd/system/graceful_serval.service
-```
 <h4>3. Write into <i>/lib/systemd/system</i></h4>  
 
 ```ini  
