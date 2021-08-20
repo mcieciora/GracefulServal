@@ -23,7 +23,7 @@ requests~=2.25.1
 waitress  
 ```
   
-See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing)
+See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) \
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
   
   
