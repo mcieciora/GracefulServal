@@ -27,13 +27,13 @@ See: [How to install modules](https://packaging.python.org/tutorials/installing-
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
   
   
-<h3>Lazy installation (not implemented yet; please use step-by-step guide)</h3>  
+<h3>Lazy installation (not implemented yet; please use step-by-step guide instead)</h3>  
 Simply run  
  
 ```
 git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
-cd GracefulServalsudo 
-python3 setup.py
+cd GracefulServal
+sudo python3 setup.py
 ```  
   
 <h3>Step-by-step installation</h3>  
