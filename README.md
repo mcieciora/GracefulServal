@@ -10,9 +10,7 @@ This animal was chosen as mascot for this project to raise awareness, that even 
 <h2>How to install</h2>
 <h3>Prerequisites</h3>
 Python version:
-```
->= 3.7
-```
+``>= 3.7``\
 Python modules (list available in requirements.txt):
 ```
 flask~=1.1.2
@@ -24,7 +22,7 @@ requests~=2.25.1
 waitress
 ```
 
-See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing)\
+See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) \
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)
 
 
