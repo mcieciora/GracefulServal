@@ -13,7 +13,7 @@ This animal was chosen as mascot for this project to raise awareness, that even 
 Python version: 
   
 Python modules (list available in requirements.txt):  
-```  
+```
 flask~=1.1.2  
 Flask-SQLAlchemy  
 Flask-Login  
@@ -21,7 +21,7 @@ Werkzeug~=1.0.1
 SQLAlchemy~=1.3.23  
 requests~=2.25.1  
 waitress  
-```  
+```
   
 See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing)
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
@@ -39,9 +39,10 @@ python3 setup.py
 <h3>Step-by-step installation</h3>  
 <h4>1. Clone repository</h4>  
 
-```bash  
-git clone -b latest_release https://github.com/mcieciora/GracefulServal.gitcd GracefulServal
-```  
+```bash
+git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
+cd GracefulServal
+```
 <h4>2. Create service file in <i>/lib/systemd/system</i></h4>  
 
 ```bash
@@ -49,7 +50,7 @@ sudo nano /lib/systemd/system/graceful_serval.service
 ```
 <h4>3. Write into <i>/lib/systemd/system</i></h4>  
 
-```bash  
+```bash
 sudo nano /lib/systemd/system/graceful_serval.service
 ```
 <h4>3. Write into <i>/lib/systemd/system</i></h4>  
@@ -71,17 +72,17 @@ WantedBy=multi-user.target
 ```  
 <h4>4. Set access rights</h4>  
 
-```bash  
+```bash
 sudo chmod 644 /lib/systemd/system/graceful_serval.service
 ```  
 <h4>5. Start daemon </h4>  
 
-```bash  
+```bash
 sudo systemctl daemon-reloadsudo systemctl enable graceful_serval.service
 ```  
 <h4>6. Reboot machine</h4>  
 
-```bash  
+```bash
 sudo reboot
 ```  
 <h2>How to use</h2>  
