@@ -28,7 +28,7 @@ See: [How to install modules from requirements.txt](https://packaging.python.org
 
 <h3>Lazy installation <font color="red">(not implemented yet; please use step-by-step guide)</font></h3>
 Simply run 
-```
+```bash
 git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
 cd GracefulServal
 sudo python3 setup.py
@@ -36,16 +36,16 @@ sudo python3 setup.py
 
 <h3>Step-by-step installation</h3>
 <h4>1. Clone repository</h4>
-```
+```bash
 git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
 cd GracefulServal
 ```
 <h4>2. Create service file in <i>/lib/systemd/system</i></h4>
-```
+```bash
 sudo nano /lib/systemd/system/graceful_serval.service
 ```
 <h4>3. Write into <i>/lib/systemd/system</i></h4>
-```
+```ini
 [Unit]
 Description=Graceful Serval Service
 After=multi-user.target
@@ -61,16 +61,16 @@ Restart=always
 WantedBy=multi-user.target
 ```
 <h4>4. Set access rights</h4>
-```
+```bash
 sudo chmod 644 /lib/systemd/system/graceful_serval.service
 ```
 <h4>5. Start daemon </h4>
-```
+```bash
 sudo systemctl daemon-reload
 sudo systemctl enable graceful_serval.service
 ```
 <h4>6. Reboot machine</h4>
-```
+```bash
 sudo reboot
 ```
 <h2>How to use</h2>
