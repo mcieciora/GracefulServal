@@ -25,7 +25,10 @@ waitress
   
 See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) \
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
-  
+
+
+<h3>Docker container</h3>  
+WIP
   
 <h3>Lazy installation (not implemented yet; please use step-by-step guide instead)</h3>  
 Simply run  
@@ -74,7 +77,8 @@ sudo chmod 644 /lib/systemd/system/graceful_serval.service
 <h4>5. Start daemon </h4>  
 
 ```
-sudo systemctl daemon-reloadsudo systemctl enable graceful_serval.service
+sudo systemctl daemon-reload
+sudo systemctl enable graceful_serval.service
 ```  
 <h4>6. Reboot machine</h4>  
 
