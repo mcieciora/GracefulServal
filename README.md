@@ -1,16 +1,16 @@
-
 <h2>What is <i>GracefulServal</i></h2>  
 Graceful Serval is a <i>bookmarks tool</i>, which helps to establish register of interesting or useful websites in you local network. It may be helpful for you, your family, friends, flatmates or even coworkers to keep helpful content in one place.  
   
 <h2>About Serval</h2>  
-Serval is a long-legged African wildcat <i>(Felis serval)</i> having large ears and a tawny black-spotted coat. Servals are extinction threatened, but only 9 out of 42 countries (where servals occur) have forbidden hunts.  
-This animal was chosen as mascot for this project to raise awareness, that even if international law prohibits some actions, not all countries take care of animals that are on edge of extinction.  
+Serval <i>(Felis serval)</i> is a long-legged African wildcat having large ears and a tawny black-spotted coat. Servals are extinction threatened, but only 9 out of 42 countries, where servals occur, have banned hunting for their leather.
+On many European e-commerce websites there is possibility to find offers for buying servals as pets.
+This animal was chosen as mascot for this project to raise awareness, that even if international law prohibits some actions, not all countries take care of animals, that are on edge of extinction, cause for many people lust for money is stronger than morality.
   
 ![alt text](doc/serval.PNG)\
 <i>source:</i> [Serval - Wikipedia](https://en.wikipedia.org/wiki/Serval)
 <h2>How to install</h2>
 <h3>Prerequisites</h3>  
-Python version: 
+Python version: >= 3.7
   
 Python modules (list available in requirements.txt):  
 ```
