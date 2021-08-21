@@ -6,7 +6,7 @@ Serval <i>(Felis serval)</i> is a long-legged African wildcat having large ears 
 On many European e-commerce websites there is possibility to find offers for buying servals as pets.
 This animal was chosen as mascot for this project to raise awareness, that even if international law prohibits some actions, not all countries take care of animals, that are on edge of extinction, cause for many people lust for money is stronger than morality.
   
-![alt text](doc/serval.PNG)\
+![serval.png](doc/serval.PNG)\
 <i>source:</i> [Serval - Wikipedia](https://en.wikipedia.org/wiki/Serval)
 <h2>How to install</h2>
 <h3>Prerequisites</h3>  
@@ -58,7 +58,7 @@ sudo nano /lib/systemd/system/graceful_serval.service
 [Unit]  
 Description=Graceful Serval Service  
 After=multi-user.target  
-  
+
 [Service]  
 Type=idle  
 User=<YOUR_USER_NAME>  
@@ -90,28 +90,28 @@ sudo reboot
   
 First, you need to create account with username and pin code as a password. <b>Pin code shall be four digits long.</b> After submitting, you will be automatically redirected to Home page again, which now will contain url addition form.  
   
-![alt text](doc/singup.PNG)  
+![singup.png](doc/singup.PNG)  
   
-![alt text](doc/main.PNG)  
+![main.png](doc/main.PNG)  
   
   
 <h3>Add url</h3>  
   
 To add bookmark simply copypaste your target website url and give it a short, but descriptive name.  
   
-![alt text](doc/add_url.PNG)
+![add_url.png](doc/add_url.PNG)
   
 <h3>Url view</h3>  
   
 Each authenticated user, by clicking red X button, has the ability to delete expired or unwanted urls.  
   
-![alt text](doc/url_added.PNG)  
+![url_added.png](doc/url_added.PNG)  
   
 <h3>Guest user view</h3>  
   
 For guest users main page contains only listed bookmarks.  
   
-![alt text](doc/user_view.PNG)  
+![user_view.png](doc/user_view.PNG)  
 See: [Funny cats video ;)](https://www.youtube.com/watch?v=eX2qFMC8cFo)
   
 <i>mcieciora</i>
