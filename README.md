@@ -38,7 +38,7 @@ docker run -d -p 5000:8000 --name graceful_serval mcieciora/graceful_serval:late
 <h4>1. Clone repository</h4>  
 
 ```
-git clone -b latest_release https://github.com/mcieciora/GracefulServal.git
+git clone https://github.com/mcieciora/GracefulServal.git
 cd GracefulServal
 ```
 <h4>2. Create service file in <i>/lib/systemd/system</i></h4>  
