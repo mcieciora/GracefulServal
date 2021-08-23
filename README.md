@@ -8,6 +8,10 @@ This animal was chosen as mascot for this project to raise awareness, that even 
   
 ![serval.png](doc/serval.PNG)\
 <i>source:</i> [Serval - Wikipedia](https://en.wikipedia.org/wiki/Serval)
+
+<h3>Discontinuation note</h3>
+This project is currently discontinued, because author has no further plans for application development. Similar projects may be started in the future, but as far as this note is available here, probably none did.
+
 <h2>How to install</h2>
 <h3>Prerequisites</h3>  
 Python version: >= 3.7
@@ -108,5 +112,5 @@ For guest users main page contains only listed bookmarks.
   
 ![user_view.png](doc/user_view.PNG)  
 See: [Funny cats video ;)](https://www.youtube.com/watch?v=eX2qFMC8cFo)
-  
+
 <i>mcieciora</i>
