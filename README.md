@@ -30,15 +30,18 @@ waitress
 See: [How to install modules](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) \
 See: [How to install modules from requirements.txt](https://packaging.python.org/tutorials/installing-packages/#requirements-files)  
 
-  
+
 <h3>Docker container</h3>    
 Get graceful_serval container with:
    
 ```  
-docker run -d -p 5000:8000 --name graceful_serval mcieciora/graceful_serval:latest   
-```    
+docker run -d -p 8000:8000 --name graceful_serval mcieciora/graceful_serval:latest   
+```
   
 <h3>Step-by-step installation</h3>  
+
+Supported OS: Ubuntu 20.04
+
 <h4>1. Clone repository</h4>  
 
 ```
